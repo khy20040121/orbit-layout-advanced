@@ -1,18 +1,30 @@
-# Nunu — A CLI tool for building Go applications.
+该项目的架构采用了典型的分层架构，主要包括以下几个模块：
 
-Nunu is a scaffolding tool for building Go applications. Its name comes from a game character in League of Legends, a little boy riding on the shoulders of a Yeti. Just like Nunu, this project stands on the shoulders of giants, as it is built upon a combination of popular libraries from the Go ecosystem. This combination allows you to quickly build efficient and reliable applications.
+* `cmd`：该模块包含了应用的入口点，根据不同的命令进行不同的操作，例如启动服务器、执行数据库迁移等。每个子模块都有一个`main.go`文件作为入口文件，以及`wire.go`和`wire_gen.go`文件用于依赖注入。
+* `config`：该模块包含了应用的配置文件，根据不同的环境（如开发环境和生产环境）提供不同的配置。
+* `deploy`：该模块用于部署应用，包含了一些部署脚本和配置文件。
+* `internal`：该模块是应用的核心模块，包含了各种业务逻辑的实现。
 
-[简体中文介绍](https://github.com/go-nunu/nunu/blob/main/README_zh.md)
+    - `handler`：该子模块包含了处理HTTP请求的处理器，负责接收请求并调用相应的服务进行处理。
 
-![Nunu](https://github.com/go-nunu/nunu/blob/main/.github/assets/banner.png)
+    - `job`：该子模块包含了后台任务的逻辑实现。
 
-## Documentation
-* [User Guide](https://github.com/go-nunu/nunu/blob/main/docs/en/guide.md)
-* [Architecture](https://github.com/go-nunu/nunu/blob/main/docs/en/architecture.md)
-* [Getting Started Tutorial](https://github.com/go-nunu/nunu/blob/main/docs/en/tutorial.md)
-* [Unit Testing](https://github.com/go-nunu/nunu/blob/main/docs/en/unit_testing.md)
+    - `model`：该子模块包含了数据模型的定义。
 
+    - `repository`：该子模块包含了数据访问层的实现，负责与数据库进行交互。
 
-## License
+    - `server`：该子模块包含了HTTP服务器的实现。
 
-Nunu is released under the MIT License. For more information, see the [LICENSE](LICENSE) file.
+    - `service`：该子模块包含了业务逻辑的实现，负责处理具体的业务操作。
+
+* `pkg`：该模块包含了一些通用的功能和工具。
+
+* `scripts`：该模块包含了一些脚本文件，用于项目的构建、测试和部署等操作。
+
+* `storage`：该模块用于存储文件或其他静态资源。
+
+* `test`：该模块包含了各个模块的单元测试，按照模块划分子目录。
+
+* `web`：该模块包含了前端相关的文件，如HTML、CSS和JavaScript等。
+
+此外，还包含了一些其他的文件和目录，如授权文件、构建文件、README等。整体上，该项目的架构清晰，各个模块之间的职责明确，便于理解和维护。
