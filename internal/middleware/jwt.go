@@ -2,9 +2,9 @@ package middleware
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/go-nunu/nunu-layout-advanced/api/v1"
-	"github.com/go-nunu/nunu-layout-advanced/pkg/jwt"
-	"github.com/go-nunu/nunu-layout-advanced/pkg/log"
+	"github.com/khy20040121/orbit-layout-advanced/api/v1"
+	"github.com/khy20040121/orbit-layout-advanced/pkg/jwt"
+	"github.com/khy20040121/orbit-layout-advanced/pkg/log"
 	"go.uber.org/zap"
 	"net/http"
 )

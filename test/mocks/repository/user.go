@@ -8,8 +8,8 @@ import (
 	context "context"
 	reflect "reflect"
 
-	model "github.com/go-nunu/nunu-layout-advanced/internal/model"
 	gomock "github.com/golang/mock/gomock"
+	model "github.com/khy20040121/orbit-layout-advanced/internal/model"
 )
 
 // MockUserRepository is a mock of UserRepository interface.

@@ -7,13 +7,13 @@
 package wire
 
 import (
-	"github.com/go-nunu/nunu-layout-advanced/internal/repository"
-	"github.com/go-nunu/nunu-layout-advanced/internal/server"
-	"github.com/go-nunu/nunu-layout-advanced/internal/task"
-	"github.com/go-nunu/nunu-layout-advanced/pkg/app"
-	"github.com/go-nunu/nunu-layout-advanced/pkg/log"
-	"github.com/go-nunu/nunu-layout-advanced/pkg/sid"
 	"github.com/google/wire"
+	"github.com/khy20040121/orbit-layout-advanced/internal/repository"
+	"github.com/khy20040121/orbit-layout-advanced/internal/server"
+	"github.com/khy20040121/orbit-layout-advanced/internal/task"
+	"github.com/khy20040121/orbit-layout-advanced/pkg/app"
+	"github.com/khy20040121/orbit-layout-advanced/pkg/log"
+	"github.com/khy20040121/orbit-layout-advanced/pkg/sid"
 	"github.com/spf13/viper"
 )
 

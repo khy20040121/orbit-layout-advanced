@@ -1,9 +1,9 @@
 package router
 
 import (
-	"github.com/go-nunu/nunu-layout-advanced/internal/handler"
-	"github.com/go-nunu/nunu-layout-advanced/pkg/jwt"
-	"github.com/go-nunu/nunu-layout-advanced/pkg/log"
+	"github.com/khy20040121/orbit-layout-advanced/internal/handler"
+	"github.com/khy20040121/orbit-layout-advanced/pkg/jwt"
+	"github.com/khy20040121/orbit-layout-advanced/pkg/log"
 	"github.com/spf13/viper"
 )
 

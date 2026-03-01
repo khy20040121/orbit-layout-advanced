@@ -2,11 +2,11 @@ package server
 
 import (
 	"github.com/gin-gonic/gin"
-	apiV1 "github.com/go-nunu/nunu-layout-advanced/api/v1"
-	"github.com/go-nunu/nunu-layout-advanced/docs"
-	"github.com/go-nunu/nunu-layout-advanced/internal/middleware"
-	"github.com/go-nunu/nunu-layout-advanced/internal/router"
-	"github.com/go-nunu/nunu-layout-advanced/pkg/server/http"
+	apiV1 "github.com/khy20040121/orbit-layout-advanced/api/v1"
+	"github.com/khy20040121/orbit-layout-advanced/docs"
+	"github.com/khy20040121/orbit-layout-advanced/internal/middleware"
+	"github.com/khy20040121/orbit-layout-advanced/internal/router"
+	"github.com/khy20040121/orbit-layout-advanced/pkg/server/http"
 	swaggerfiles "github.com/swaggo/files"
 	ginSwagger "github.com/swaggo/gin-swagger"
 )

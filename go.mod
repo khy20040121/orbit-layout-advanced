@@ -1,4 +1,4 @@
-module github.com/go-nunu/nunu-layout-advanced
+module github.com/khy20040121/orbit-layout-advanced
 
 go 1.24.10
 

@@ -7,18 +7,18 @@
 package wire
 
 import (
-	"github.com/go-nunu/nunu-layout-advanced/internal/handler"
-	"github.com/go-nunu/nunu-layout-advanced/internal/job"
-	"github.com/go-nunu/nunu-layout-advanced/internal/repository"
-	"github.com/go-nunu/nunu-layout-advanced/internal/router"
-	"github.com/go-nunu/nunu-layout-advanced/internal/server"
-	"github.com/go-nunu/nunu-layout-advanced/internal/service"
-	"github.com/go-nunu/nunu-layout-advanced/pkg/app"
-	"github.com/go-nunu/nunu-layout-advanced/pkg/jwt"
-	"github.com/go-nunu/nunu-layout-advanced/pkg/log"
-	"github.com/go-nunu/nunu-layout-advanced/pkg/server/http"
-	"github.com/go-nunu/nunu-layout-advanced/pkg/sid"
 	"github.com/google/wire"
+	"github.com/khy20040121/orbit-layout-advanced/internal/handler"
+	"github.com/khy20040121/orbit-layout-advanced/internal/job"
+	"github.com/khy20040121/orbit-layout-advanced/internal/repository"
+	"github.com/khy20040121/orbit-layout-advanced/internal/router"
+	"github.com/khy20040121/orbit-layout-advanced/internal/server"
+	"github.com/khy20040121/orbit-layout-advanced/internal/service"
+	"github.com/khy20040121/orbit-layout-advanced/pkg/app"
+	"github.com/khy20040121/orbit-layout-advanced/pkg/jwt"
+	"github.com/khy20040121/orbit-layout-advanced/pkg/log"
+	"github.com/khy20040121/orbit-layout-advanced/pkg/server/http"
+	"github.com/khy20040121/orbit-layout-advanced/pkg/sid"
 	"github.com/spf13/viper"
 )
 

@@ -8,8 +8,8 @@ import (
 	context "context"
 	reflect "reflect"
 
-	v1 "github.com/go-nunu/nunu-layout-advanced/api/v1"
 	gomock "github.com/golang/mock/gomock"
+	v1 "github.com/khy20040121/orbit-layout-advanced/api/v1"
 )
 
 // MockUserService is a mock of UserService interface.

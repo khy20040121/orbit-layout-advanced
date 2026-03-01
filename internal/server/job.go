@@ -2,8 +2,8 @@ package server
 
 import (
 	"context"
-	"github.com/go-nunu/nunu-layout-advanced/internal/job"
-	"github.com/go-nunu/nunu-layout-advanced/pkg/log"
+	"github.com/khy20040121/orbit-layout-advanced/internal/job"
+	"github.com/khy20040121/orbit-layout-advanced/pkg/log"
 )
 
 type JobServer struct {

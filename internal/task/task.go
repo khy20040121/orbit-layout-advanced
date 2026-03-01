@@ -1,10 +1,10 @@
 package task
 
 import (
-	"github.com/go-nunu/nunu-layout-advanced/internal/repository"
-	"github.com/go-nunu/nunu-layout-advanced/pkg/jwt"
-	"github.com/go-nunu/nunu-layout-advanced/pkg/log"
-	"github.com/go-nunu/nunu-layout-advanced/pkg/sid"
+	"github.com/khy20040121/orbit-layout-advanced/internal/repository"
+	"github.com/khy20040121/orbit-layout-advanced/pkg/jwt"
+	"github.com/khy20040121/orbit-layout-advanced/pkg/log"
+	"github.com/khy20040121/orbit-layout-advanced/pkg/sid"
 )
 
 type Task struct {

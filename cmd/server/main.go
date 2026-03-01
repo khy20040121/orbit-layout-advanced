@@ -5,9 +5,9 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/go-nunu/nunu-layout-advanced/cmd/server/wire"
-	"github.com/go-nunu/nunu-layout-advanced/pkg/config"
-	"github.com/go-nunu/nunu-layout-advanced/pkg/log"
+	"github.com/khy20040121/orbit-layout-advanced/cmd/server/wire"
+	"github.com/khy20040121/orbit-layout-advanced/pkg/config"
+	"github.com/khy20040121/orbit-layout-advanced/pkg/log"
 	"go.uber.org/zap"
 )
 

@@ -3,8 +3,8 @@ package server
 import (
 	"context"
 	"github.com/go-co-op/gocron"
-	"github.com/go-nunu/nunu-layout-advanced/internal/task"
-	"github.com/go-nunu/nunu-layout-advanced/pkg/log"
+	"github.com/khy20040121/orbit-layout-advanced/internal/task"
+	"github.com/khy20040121/orbit-layout-advanced/pkg/log"
 	"go.uber.org/zap"
 	"time"
 )
